@@ -1,3 +1,5 @@
+require 'pry'
+
 def third_challenge
   epic_tragedy = {
    :montague => {
@@ -48,8 +50,9 @@ def third_challenge
         {
         :name => "Nurse",
         :age => "44",
+        binding.pry
         :attitude => "worried"
-      
+      }
       }]
    }
   }
